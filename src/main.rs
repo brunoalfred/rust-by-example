@@ -17,6 +17,8 @@ fn main() {
 
     println!("{number:>0width$}", number=1, width=6);
 
-    println!("My name is {0}, {1}, {0}", "Bond");
+    // println!("My name is {0}, {1}, {0}", "Bond");
+
+    struct Structure(i32);
 
 }
