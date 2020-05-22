@@ -2,8 +2,12 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/hello_world/src" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/hello_world/target" />
+      <sourceFolder url="file://$MODULE_DIR$/rusting_up/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/formatted_print/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/formatted_print/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rusting_up/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
