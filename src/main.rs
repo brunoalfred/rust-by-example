@@ -19,4 +19,6 @@ fn main() {
         actor="actor's"
     );
 
+    println!("Now will {:?} print !", DebugPrintable(3));
+
 }
