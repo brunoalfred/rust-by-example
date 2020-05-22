@@ -19,6 +19,11 @@ fn main() {
         actor="actor's"
     );
 
+    //The structure is now printable.
     println!("Now will {:?} print !", DebugPrintable(3));
+
+    //To display only the result.
+    println!("Now the result is {:?}", Deep(DebugPrintable(5)));
+
 
 }
