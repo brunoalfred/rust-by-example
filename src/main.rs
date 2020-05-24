@@ -1,13 +1,25 @@
-fn main() {
-    let array = [2, 3, 4, 5, 7, 7];
-    let number = 1..6;
+//TODO: Convert temperature between Fahrenheit and celsius.
+//FORMULA:(32°F − 32) × 5/9 = 0°C
 
 
-    for value in array.iter() {
-        println!("The value is: {}", value);
-    }
+use std::io;
 
-    for value in number {
-        println!("The values are: {}", value);
-    }
+
+
+fn main(){
+
+    println!("Welcome!, to convert from Celsius to fahrenheit press 1");
+    let mut option = String::new();
+
+    io::stdin().read_line(&mut option)
+        .expect("Failed to read the input");
+
+
+
+
+}
+
+
+
+
 }
