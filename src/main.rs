@@ -1,12 +1,14 @@
 
 
 fn main (){
-    loop {
-        let condition = true;
-        let number = if condition {
-            5
-        } else { 6 };
 
-        println!("The value of number is {}", number);
+    let array = [2, 3, 4, 5, 7, 7];
+    let mut index = 0;
+
+    while index < 6 {
+        println!("The values are: {}", array[index] );
+        index = index + 1;
+
     }
+
 }
