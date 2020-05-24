@@ -15,11 +15,26 @@ fn main(){
         .expect("Failed to read the input");
 
 
-    let option = option.trim().parse()
+    let option: u32 = option.trim().parse()
         .expect("Please Enter a number!");
 
     println!("{}", option);
 
+    if option == 1  {
+
+
+        let mut value = String::new();
+        io::stdin().read_line(& mut value)
+            .expect("Failed to read the Input!");
+
+        let value = value.trim().parse()
+            .expect("Please Enter a number!");
+
+        let result = (9/5)*value + 32;
+
+        println!("The temperature in Fahrenheit is: {}", result);
+
+    }
 
 }
 
