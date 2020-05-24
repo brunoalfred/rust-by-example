@@ -1,6 +1,4 @@
-fn five() -> i32 {
-    5
-}
+
 
 fn main (){
 
@@ -8,5 +6,7 @@ fn main (){
     let number = if condition {
         5
     } else { 6 };
+
+    println!("The value of number is {}", number);
 
 }
