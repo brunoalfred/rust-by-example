@@ -15,6 +15,10 @@ fn main(){
         .expect("Failed to read the input");
 
 
+    let option = option.trim().parse()
+        .expect("Please Enter a number!");
+
+    println!("{}", option);
 
 
 }
@@ -22,4 +26,3 @@ fn main(){
 
 
 
-}
