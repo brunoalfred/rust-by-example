@@ -1,12 +1,11 @@
+fn give_princess(gift: &str) {
+
+    if gift == "snake" {panic!("Aaaaaaaaaaaaaaah!")}
+    println!("I love {}sss!", gift);
 
 
-mod example;
-
-
+}
 fn main() {
-
-example::module_one::first();
-    example::module_two::second();
-
-
+    give_princess("teddy bear");
+    give_princess("snake");
 }
