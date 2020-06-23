@@ -1,16 +1,9 @@
-fn main() {
-    'outer: loop {
-        println!("Entered the outer loop!");
+fn main(){
 
-        'inner: loop {
-            println!("Entered the inner loop!");
+    let space = "    ";
+    let space = space.len();
 
-            break 'outer;
-        }
-
-        println!("Is this point ever reached! ");
-    }
+    println!("The size of string: {}", space);
 
 
-    println!("Exited the outer loop!");
 }
