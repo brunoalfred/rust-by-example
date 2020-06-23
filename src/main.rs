@@ -1,7 +1,11 @@
 fn main() {
-    let months = ["january", "february", "march", "april", "may", "june",
-        "july", "august", "september", "october", "november", "december"];
 
-    let month = months[1];
-    println!("The month is: {}", month);
+    let mut age = 20;
+    let accepted = if age >= 18 {
+        "welcome"
+    } else { "Not allowed" };
+
+    println!("I say you are: {}", accepted);
 }
+
+
