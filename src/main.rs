@@ -1,9 +1,7 @@
-fn main(){
+fn main() {
+    let months = ["january", "february", "march", "april", "may", "june",
+        "july", "august", "september", "october", "november", "december"];
 
-    let space = "    ";
-    let space = space.len();
-
-    println!("The size of string: {}", space);
-
-
+    let month = months[1];
+    println!("The month is: {}", month);
 }
