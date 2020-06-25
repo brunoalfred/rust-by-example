@@ -1,30 +1,33 @@
-use std::mem;
-
-
-struct Object {
-    width: u32,
-    lenght: u32,
+struct Object{
+    base: u32,
+    height: u32,
 }
 
-fn area(obj: &Object) -> u32{
+impl Object{
+    fn area(&self) -> u32{
+        self.base * self.height
+    }
 
-    obj.lenght * obj.width
-
+    fn show(&self){
+        println!("the area of: {}x{} is = {}", self.base, self.height, self.area())
+    }
 }
 
-fn main() { 
+impl  Object{
 
-    let o = Object{
-        width: 40,
-        lenght: 20,
-    };
+    fn new(base: u32, height: u32) -> Object{
+        Object{
+            base: base,
+            height: height,
+        }
+    }
+}
 
-    let mut a = area(&o);
+fn main() {
 
-    println!("The product of {}x{} is: {}", o.width, o.lenght, a);
-
+    let triangle_one = Object::new(20, 40);
+    triangle_one.show();
+    
 
 
 }
-
-
