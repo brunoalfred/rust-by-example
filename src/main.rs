@@ -1,11 +1,17 @@
+use std::mem;
+
 fn main() {
 
-    let mut age = 20;
-    let accepted = if age >= 18 {
-        "welcome"
-    } else { "Not allowed" };
 
-    println!("I say you are: {}", accepted);
+    let t  = (2, 'd', false);
+    println!("{:?} {}", t, mem::size_of_val(&t));
+
+    let s = "Bruno has arrived".to_string();
+    println!("{}", s);
+
+
+
+
 }
 
 
