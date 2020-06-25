@@ -9,6 +9,11 @@ fn main() {
     let s = "Bruno has arrived".to_string();
     println!("{}", s);
 
+    let s1 = " ,he is in the class ";
+
+    let fs = s + &s1;
+    println!("{}", fs);
+
 
 
 
