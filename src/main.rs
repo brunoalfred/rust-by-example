@@ -1,19 +1,27 @@
 use std::mem;
 
-fn main() {
 
+struct Object {
+    width: u32,
+    lenght: u32,
+}
 
-    let t  = (2, 'd', false);
-    println!("{:?} {}", t, mem::size_of_val(&t));
+fn area(obj: &Object) -> u32{
 
-    let s = "Bruno has arrived".to_string();
-    println!("{}", s);
+    obj.lenght * obj.width
 
-    let s1 = " ,he is in the class ";
+}
 
-    let fs = s + &s1;
-    println!("{}", fs);
+fn main() { 
 
+    let o = Object{
+        width: 40,
+        lenght: 20,
+    };
+
+    let mut a = area(&o);
+
+    println!("The product of {}x{} is: {}", o.width, o.lenght, a);
 
 
 
