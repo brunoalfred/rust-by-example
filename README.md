@@ -1,7 +1,8 @@
-<div style="text-align:center"><img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" /></div>
+
+<p align="center"><img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" /></p>
 
 
-##Rust Programming Language. 
+## Rust Programming Language. 
     
 Covering all the important/basic concepts for the rust programming by 
 going through the [rust doc](https://doc.rust-lang.org/book/) and [Rust by example](https://doc.rust-lang.org/stable/rust-by-example/).
