@@ -5,4 +5,5 @@ fn main() {
         age: u8,
     }
 
+    // A unit struct
 }
