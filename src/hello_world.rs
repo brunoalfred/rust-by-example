@@ -4,4 +4,5 @@ fn main() {
         name: &'a str,
         age: u8,
     }
+    
 }
